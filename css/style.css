@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*.div1{
+	background-color: violet;
+	width: 1000px;
+	height: 200px;
+}
+
+
+
+.div2{
+	background-color: black;
+	width: 1000px;
+	height: 200px;
+}*/
+
+.div3{
+	width: 100%;
+	background-color: gold;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 50px 0;
+}
+.item {
+	width: 22%;
+	margin: 20px 0;
+	background-color: wheat;
+	height: 200px;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 800px){
+	.item{
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width: 800px) and (min-width: 500px){
+	.item{
+		width: 45%;
+	}
+}
+
+/*
+@media only screen and (max-width: 1000px){
+	.div1{
+		width: 800px;
+		background-color: green;
+	}
+	.div2{
+		width: 800px;
+		background-color: red;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.div1{
+		width: 600px;
+		background-color: silver;
+}
+
+@media only screen and (max-width: 600px){ 600 henc poqracav darnaluya 500px
+	.div1{
+		width: 500px;
+		background-color: red;
+}*/
+
+
